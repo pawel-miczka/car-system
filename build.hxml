@@ -1,0 +1,13 @@
+--class-path src
+--dce full
+-D lua-vanilla
+-D lua-ver=5.1
+
+--each
+
+--main server.Main
+--lua dist/server/main.lua
+
+--next
+
+--cmd haxe -cp scripts --run MetaFileBuilder
